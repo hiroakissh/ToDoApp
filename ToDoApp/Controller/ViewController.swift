@@ -18,7 +18,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         if UserDefaults.standard.object(forKey: "ToDo") != nil{
             
-            todoTitle = UserDefaults.standard.object(forKey: "ToDo") as! [String]
+            toDoString = UserDefaults.standard.object(forKey: "ToDo") as! [String]
             
         }
         
@@ -26,7 +26,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return todoTitle.count
+        return toDoString.count
         
     }
     
@@ -34,12 +34,13 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         let ToDocell : UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "ToDocell", for: indexPath)
         
-        ToDocell.textLabel?.text = todoTitle[indexPath.row]
+        ToDocell.textLabel!.text = toDoString[indexPath.row]
         return ToDocell
         
     }
     
-
+    
+    
 
 }
 

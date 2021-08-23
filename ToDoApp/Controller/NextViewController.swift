@@ -7,9 +7,11 @@
 
 import UIKit
 
+var toDoString = [String]()
+
 class NextViewController: UIViewController {
 
-    var toDoString = [String]()
+    
 
     @IBOutlet weak var todoLabel: UILabel!
     

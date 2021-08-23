@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <color key="separatorColor" systemColor="systemTealColor"/>
+                        <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToDoCell" rowHeight="124" id="HTp-a2-fej">
                                 <rect key="frame" x="0.0" y="24.5" width="414" height="124"/>
@@ -43,7 +43,7 @@
                                 <state key="normal" title="追加"/>
                             </button>
                             <connections>
-                                <segue destination="6Wf-9B-MNr" kind="presentation" id="BJ0-vj-pfz"/>
+                                <segue destination="6Wf-9B-MNr" kind="show" id="Zbj-Zo-dkx"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -55,12 +55,27 @@
             </objects>
             <point key="canvasLocation" x="939.13043478260875" y="88.392857142857139"/>
         </scene>
+        <!--Todo Ditieil View Controller-->
+        <scene sceneID="v8O-UL-ReV">
+            <objects>
+                <viewController id="Hbz-BO-tgY" customClass="todoDitieilViewController" customModule="ToDoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WF5-NK-LmK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Tqg-ve-u48"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aoh-pL-MY1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1708" y="-618"/>
+        </scene>
         <!--Next View Controller-->
         <scene sceneID="Nzj-fr-zhQ">
             <objects>
                 <viewController id="6Wf-9B-MNr" customClass="NextViewController" customModule="ToDoApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rWe-9M-Hvi">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="追加するToDo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLU-Pu-Tox">
@@ -104,6 +119,7 @@
         <!--Navigation Controller-->
         <scene sceneID="qOe-ac-v0w">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gzh-Hz-uMG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nE7-OO-RjU" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nkW-5P-6d1">
@@ -115,7 +131,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="tiB-oS-Ckt"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Gzh-Hz-uMG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="28.985507246376812" y="88.392857142857139"/>
         </scene>

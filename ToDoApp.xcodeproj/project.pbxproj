@@ -14,6 +14,7 @@
 		536821EE26D33ACA00EABAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 536821ED26D33ACA00EABAB8 /* Assets.xcassets */; };
 		536821F126D33ACA00EABAB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 536821EF26D33ACA00EABAB8 /* LaunchScreen.storyboard */; };
 		536821FC26D354AC00EABAB8 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536821FB26D354AC00EABAB8 /* NextViewController.swift */; };
+		536821FE26D3654A00EABAB8 /* todoDitieilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536821FD26D3654A00EABAB8 /* todoDitieilViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		536821F026D33ACA00EABAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		536821F226D33ACA00EABAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		536821FB26D354AC00EABAB8 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		536821FD26D3654A00EABAB8 /* todoDitieilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoDitieilViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				536821E626D33AC900EABAB8 /* SceneDelegate.swift */,
 				536821E826D33AC900EABAB8 /* ViewController.swift */,
 				536821FB26D354AC00EABAB8 /* NextViewController.swift */,
+				536821FD26D3654A00EABAB8 /* todoDitieilViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				536821E926D33AC900EABAB8 /* ViewController.swift in Sources */,
 				536821FC26D354AC00EABAB8 /* NextViewController.swift in Sources */,
 				536821E526D33AC900EABAB8 /* AppDelegate.swift in Sources */,
+				536821FE26D3654A00EABAB8 /* todoDitieilViewController.swift in Sources */,
 				536821E726D33AC900EABAB8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
